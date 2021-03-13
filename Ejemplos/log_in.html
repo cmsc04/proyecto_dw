@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="PapayaWhip">
+    <form>
+        <label for="usuario">Usuario: </label><br>
+        <input type="text" name="usuario"  id="usuario"><br>
+        <label for="clave">Contraseña: </label><br>
+        <input type="password" name="clave" id="clave"><br>
+        <input type="hidden" name="sesion" id="sesion" value="2021-03-19">
+        <p>SEXO</p>
+        <label for="sexo"> Maculino</label> 
+        <input type="radio" name="sexo" id="masculino" value="m">
+        <label for="sexo"> Femenino</label> 
+        <input type="radio" name="sexo" id="Femenino" value="f"><br><br>
+        <p>Servicios públicos que posee: </p> 
+        <label for="agua"> Agua potable</label>
+        <input type="checkbox" name="agua" id="agua" value="agua"> <br>
+        <label for="luz">Luz eléctrica</label>
+        <input type="checkbox" name="luz" id="luz" value="luz" checked> <br>
+        <label for="telefono">Teléfono</label>
+        <input type="checkbox" name="telefono" id="telefono" value="telefono"> <br><br>
+        <label for="foto">Foto de perfil: </label>
+        <input type="file" name="foto" id="foto"><br><br>
+        <label for="edad">Ingresar edad: </label>
+        <input type="number" max="100" min="18" step="1" value="edad"><br> <br>
+        <label for="fecha">Fecha: </label>
+        <input type="date" name="fecha" id="fecha" value="fecha"><br><br>
+        <label for="fecha">Hora: </label>
+        <input type="time" name="fecha" id="fecha" value="fecha"><br><br>
+        <label for="fecha">Mes: </label>
+        <input type="month" name="fecha" id="fecha" value="fecha"><br><br>
+        <label for="semana">Semana: </label>
+        <input type="week" name="semana" id="semana" value="fecha"><br><br>
+        <label for="nota">Nota parcial: </label>
+        <input type="range" name="nota" id="nota" min="0" max="100" step="1" value="value"><br><br>
+        <label for="email">Email: </label>
+        <input type="email" placeholder="correo@dominio.com"></input><br><br>
+        <label for="color">Color Favorito: </label>
+        <input type="color"></input><br><br>
+        <input type="submit" value="Guardar">
+        <input type="reset" value="Cancelar">
+        <input type="button" value="Botón">
+    </form>
+</body>
+</html>
